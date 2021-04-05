@@ -12,7 +12,7 @@ main proc far
    mov ds, ax
    
    OverFlowFlag:
-   mov cx, -32768
+   mov cx, -32768       ; activate overflow flag
    add cx, -2
     
    mov ah, 4ch          ; end program
